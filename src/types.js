@@ -1,0 +1,12 @@
+var userName = "Katy";
+var userAge = 25;
+var isEmployed = false;
+var car = null;
+var apartment = undefined;
+console.group('Katy');
+console.log('name', userName);
+console.log('age', userAge);
+console.log('isDeveloper', isEmployed);
+console.log('skills', car);
+console.log('anything', apartment);
+console.groupEnd();
